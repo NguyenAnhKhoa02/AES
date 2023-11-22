@@ -32,6 +32,8 @@ public class MainDisplay extends JFrame {
     public MainDisplay(){
         this.setSize(1000,600);
         this.setResizable(false);
+        this.setIconImage(new ImageIcon("src/Server/Images/email.png").getImage());
+        this.setTitle("Main");
 
         customActionListener = new CustomActionListener();
         messageBUS = new MessageBUS();
